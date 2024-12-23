@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .side-nav {
+    width: 20%;
+    background-color: #c44d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+  }
+  
+  .main-content {
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

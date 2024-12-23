@@ -1,7 +1,12 @@
-
+import "./App.css";
 
 const App = () => {
-  return <div>CodeAnt AI Assignment</div>;
+  return (
+    <div className="main-container">
+      <div className="side-nav">Side Navigation</div>
+      <div className="main-content">Main Content</div>
+    </div>
+  );
 };
 
 export default App;
